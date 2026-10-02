@@ -1,8 +1,8 @@
 {
   "id": "tgaming-mw2-iw4x-win64",
   "authors": ["tymewizard"],
-  "origin": "file:///opt/amp-custom-templates",
-  "url": "file:///opt/amp-custom-templates",
+  "origin": "https://github.com/tymewizard/AMPTemplates.git",
+  "url": "https://github.com/tymewizard/AMPTemplates",
   "imagefile": "",
   "prefix": "",
   "repotype": "AppTemplates"
