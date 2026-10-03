@@ -1,0 +1,93 @@
+[
+  {
+    "DisplayName": "Server Name",
+    "Category": "Server Settings",
+    "Description": "Name shown in the Black Ops III server browser.",
+    "Keywords": "server,name,hostname",
+    "FieldName": "ServerName",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "ServerName",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "TGaming BO3",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server Description",
+    "Category": "Server Settings",
+    "Description": "Description shown for the server.",
+    "Keywords": "server,description",
+    "FieldName": "ServerDescription",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "ServerDescription",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "TGaming Black Ops III Dedicated Server",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Server Password",
+    "Category": "Server Settings",
+    "Description": "Optional password required for players to join.",
+    "Keywords": "password,join",
+    "FieldName": "ServerPassword",
+    "InputType": "password",
+    "IsFlagArgument": false,
+    "ParamFieldName": "ServerPassword",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Maximum Players",
+    "Category": "Server Settings",
+    "Description": "Maximum number of players allowed on the server.",
+    "Keywords": "players,slots,max",
+    "FieldName": "$MaxUsers",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "ParamFieldName": "$MaxUsers",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "18",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Playlist",
+    "Category": "Game Settings",
+    "Description": "Black Ops III server playlist ID.",
+    "Keywords": "playlist,gamemode",
+    "FieldName": "sv_playlist",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "ParamFieldName": "sv_playlist",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "1",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "fs_game",
+    "Category": "Mods",
+    "Description": "BO3 fs_game value used to load a mod or custom content.",
+    "Keywords": "mods,fs_game,workshop",
+    "FieldName": "fs_game",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "fs_game",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Extra Startup Arguments",
+    "Category": "Advanced",
+    "Description": "Additional arguments appended to the Black Ops III server startup command.",
+    "Keywords": "startup,args,advanced",
+    "FieldName": "ExtraArgs",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "ExtraArgs",
+    "IncludeInCommandLine": true,
+    "DefaultValue": "",
+    "EnumValues": {}
+  }
+]
